@@ -15,7 +15,7 @@
             "file": "verify1.sh",
             "hint": "Please create the class and methods correctly.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -34,7 +34,7 @@
             "file": "verify2.sh",
             "hint": "Please create the subclasses and their objects correctly.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -52,7 +52,7 @@
             "file": "verify3.sh",
             "hint": "Please calculate the area of the corresponding shape correctly based on the input.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -74,13 +74,28 @@
     "assets": {
       "host01": [
         {
-          "file": "",
+          "file": "shape.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "subclass.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "area.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
           "target": "/tmp"
         }
       ]
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2004"
+    "imageid": "webide-ubuntu:2004"
   }
 }

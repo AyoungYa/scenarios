@@ -1,6 +1,6 @@
 import sys
 
-from solution.shape import Shape
+from shape import Shape
 
 sys.path.append("/home/labex/project")
 

@@ -1,6 +1,6 @@
 import sys
 
-from solution.subclass import Circle, Square
+from subclass import Circle, Square
 
 sys.path.append("/home/labex/project")
 
