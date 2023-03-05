@@ -1,0 +1,62 @@
+{
+  "type": "challenge",
+  "title": "Statistical Fruits",
+  "description": "In this challenge, the example of counting fruits is used to master the knowledge points of built-in functions, list, dict, lambda functions, etc.",
+  "difficulty": "Beginner",
+  "time": 10,
+  "details": {
+    "steps": [
+      {
+        "title": "Sum and Sorted",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Calculate the weight of the fruits in each basket and output in descending order.",
+            "file": "verify1.sh",
+            "hint": "Please calculate the weight of the fruits in each basket and output",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/list",
+          "python/dict",
+          "python/list_comprehension",
+          "python/sorted",
+          "python/lambda_function",
+          "python/print"
+        ]
+      },
+      {
+        "title": "Put Fruit into basket",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Please calculate the weight of the fruits based on the input.",
+            "file": "verify2.sh",
+            "hint": "Please enter the values that meet the requirements and calculate the weight accordingly.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/while_loop",
+          "python/float",
+          "python/input",
+          "python/math_operator",
+          "python/f_string"
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "vnc-ubuntu:2004"
+  }
+}
