@@ -15,7 +15,7 @@
             "file": "verify1.sh",
             "hint": "Please install third library in pip",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": ["python/pypi", "python/packages"]
@@ -29,7 +29,7 @@
             "file": "verify2.sh",
             "hint": "Please create a class with multiple attributes and implement methods correctly.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": ["python/class", "python/attributes"]
@@ -43,7 +43,7 @@
             "file": "verify3.sh",
             "hint": "Please use the Faker library and the Person class to correctly simulate multiple users.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -65,13 +65,23 @@
     "assets": {
       "host01": [
         {
-          "file": "",
+          "file": "person.py",
+          "target": "/tmp",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "fake_person.py",
+          "target": "/tmp",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
           "target": "/tmp"
         }
       ]
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2204"
+    "imageid": "webide-ubuntu:2204"
   }
 }

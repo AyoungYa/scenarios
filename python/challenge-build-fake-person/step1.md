@@ -12,9 +12,5 @@ print(fake.name())
 
 ## TODO
 
-- Completing `fake_person.py`
+- install `Faker` library by tool `pip`
 
-## Requirements
-
--
--

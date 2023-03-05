@@ -4,9 +4,9 @@ Please implement a `Person` class that includes the properties `name`, `age`, an
 
 ## TODO
 
-- Completing `fake_person.py`
+- Completing `person.py`
 
 ## Requirements
 
--
--
+- Complete the constructor method of the Person class and accept name, age, and email as three attributes.
+- Complete the getAge() method to return the correct age value.
