@@ -57,7 +57,30 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+      "host01": [
+        {
+          "file": "read_log.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "uri_count.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "time_statistics.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
+          "target": "/tmp"
+        }
+      ]
+  },
   "backend": {
-    "imageid": "vnc-ubuntu:2004"
+    "imageid": "webide-ubuntu:2004"
   }
 }

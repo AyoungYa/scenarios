@@ -20,6 +20,6 @@ def time_statistics(file_name):
             maxUri = k
             maxTime = avgTime
 
-    return (minUri, minTime), (maxUri, maxTime)
+    return (maxUri, maxTime), (minUri, minTime)
 
 

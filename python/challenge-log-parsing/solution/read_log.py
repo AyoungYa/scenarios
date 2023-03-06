@@ -5,3 +5,4 @@ def read_log(file_name):
         for line in f.readlines():
             print(line)
             count += 1
+    return count

@@ -1,2 +1,1 @@
-#!/bin/zsh
-python ~/solution_1.py | wc -l | grep 1997
+cd /tmp && python3 read_log_test.py
