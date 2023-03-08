@@ -1,6 +1,4 @@
-def word_chain(words):
-    # 对单词列表进行排序
-    words.sort()
+def sub_chain(result, words):
     # 用来存储已经接龙的单词
     chains = []
     # 从第一个单词开始
@@ -19,10 +17,19 @@ def word_chain(words):
     remaining_words = [word for word in words if word not in chains]
     # 如果还有剩余的单词，递归进行单词接龙，直到所有单词都被使用完
     if remaining_words:
-        print(chains)
-        word_chain(remaining_words)
+        result.append(chains)
+        sub_chain(result, remaining_words)
     else:
-        print(chains)
+        result.append(chains)
+
+def word_chain(words):
+    result = []
+    # 对单词列表进行排序
+    words.sort()
+    sub_chain(result, words)
+
+    return result
+
 
 # 输入单词列表
 words = ['a', 'toy', 'has', 'excellent', 'apple']

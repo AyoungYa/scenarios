@@ -15,7 +15,7 @@
             "file": "verify1.sh",
             "hint": "Please process the input sentence correctly.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -35,7 +35,7 @@
             "file": "verify2.sh",
             "hint": "Please implement the word chain correctly.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -55,13 +55,23 @@
     "assets": {
       "host01": [
         {
-          "file": "",
+          "file": "split_sentence.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "solitaire.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
           "target": "/tmp"
         }
       ]
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2204"
+    "imageid": "webide-ubuntu:2204"
   }
 }

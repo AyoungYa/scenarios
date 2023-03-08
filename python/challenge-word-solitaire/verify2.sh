@@ -1,1 +1,1 @@
-#!/bin/zsh
+cd /tmp && python3 solitaire.py

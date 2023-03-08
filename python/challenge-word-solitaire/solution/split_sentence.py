@@ -7,8 +7,3 @@ def process_sentence(sentence):
     words = list(set(words))
     return words
 
-# 读取用户输入的英语句子
-sentence = input("Please enter an English sentence: ")
-# 处理并输出单词列表
-words = process_sentence(sentence)
-print(words)
