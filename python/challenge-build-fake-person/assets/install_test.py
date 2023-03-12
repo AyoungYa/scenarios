@@ -6,12 +6,9 @@ import unittest
 
 class TestPipInstall(unittest.TestCase):
     def test_pip_install(self):
-        try:
-            from faker import Faker
-            fake = Faker()
-            fake.name()
-        except Exception:
-            self.assertRaises(ImportError)
+        from faker import Faker
+        fake = Faker()
+        fake.name()
 
 
 if __name__ == "__main__":
