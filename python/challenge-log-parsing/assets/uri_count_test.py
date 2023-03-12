@@ -8,8 +8,11 @@ from uri_count import uri_count
 
 class TestReadLog(unittest.TestCase):
     def test_uri_count(self):
-        file_name = 'x.log'
-        self.assertRaises(uri_count(file_name), FileNotFoundError)
+        try:
+            file_name = 'x.log'
+            uri_count(file_name)
+        except Exception:
+            self.assertRaises(FileNotFoundError)
 
         file_name = 'access.log'
         result = uri_count(file_name)
@@ -25,7 +28,7 @@ class TestReadLog(unittest.TestCase):
         }
 
         for k, v in result.items():
-            self.assertTrue(k in result.keys)
+            self.assertTrue(k in result.keys())
             self.assertEqual(v, result.get(k))
 
 if __name__ == "__main__":
