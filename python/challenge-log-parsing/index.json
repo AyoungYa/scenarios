@@ -89,6 +89,11 @@
           "chmod": "ugo+rwx"
         },
         {
+          "file": "access.log",
+          "target": "/tmp",
+          "chmod": "ugo+rwx"
+        },
+        {
           "file": "*_test.py",
           "target": "/tmp"
         }

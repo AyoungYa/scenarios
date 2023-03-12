@@ -7,8 +7,3 @@ def read_log(file_name):
 
     return line_count
 
-
-if __name__ == '_main__':
-    file_name = 'access.log'
-    lines = read_log(file_name)
-    print("Total lines: ", lines)

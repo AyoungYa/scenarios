@@ -8,5 +8,4 @@ Opening [access.log](assets/access.log) and read the content in line, Print out 
 - Completing `read_log.py`
 
 ## Requirements
-- Open file in read-only mode.
-- Read and print line by line, filtering out blank lines.
+- Return the number of non-empty lines.
