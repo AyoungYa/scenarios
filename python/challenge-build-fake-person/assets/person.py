@@ -5,3 +5,4 @@ class Person:
     def getAge(self):
         # TODO: implement this function and return self age
         # Note: Do not change the existing code
+        pass
