@@ -77,7 +77,7 @@
         {
           "file": "access.log",
           "target": "/home/labex/project",
-          "chmod": "777"
+          "chmod": "ugo+rwx"
         },
         {
           "file": "*_test.py",
