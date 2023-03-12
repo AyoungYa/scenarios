@@ -18,7 +18,11 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/rw_files", "python/open", "python/for_loop"]
+        "skills": [
+          "python/rw_files",
+          "python/open",
+          "python/for_loop"
+        ]
       },
       {
         "title": "Analysis Each Row",
@@ -32,7 +36,10 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/dict", "python/manipulating_strings"]
+        "skills": [
+          "python/dict",
+          "python/manipulating_strings"
+        ]
       },
       {
         "title": "Time-Consuming Statistics",
@@ -46,7 +53,10 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/sum", "python/len"]
+        "skills": [
+          "python/sum",
+          "python/len"
+        ]
       }
     ],
     "intro": {
@@ -55,9 +65,8 @@
     },
     "finish": {
       "text": "finish.md"
-    }
-  },
-  "assets": {
+    },
+    "assets": {
       "host01": [
         {
           "file": "read_log.py",
@@ -84,6 +93,7 @@
           "target": "/tmp"
         }
       ]
+    }
   },
   "backend": {
     "imageid": "webide-ubuntu:2204"
