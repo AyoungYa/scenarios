@@ -54,9 +54,27 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "basket_weight.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "put_fruits.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
+          "target": "/tmp"
+        }
+      ]
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2004"
+    "imageid": "webide-ubuntu:2004"
   }
 }

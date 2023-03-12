@@ -1,1 +1,1 @@
-python ~/solution_1.py | grep "orange: 18.3, banana: 15, apple: 12.3"
+cd /tmp && python3 basket_weight_test.py
