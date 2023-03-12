@@ -66,12 +66,12 @@
       "host01": [
         {
           "file": "person.py",
-          "target": "/tmp",
+          "target": "/home/labex/project",
           "chmod": "ugo+rwx"
         },
         {
           "file": "fake_person.py",
-          "target": "/tmp",
+          "target": "/home/labex/project",
           "chmod": "ugo+rwx"
         },
         {
