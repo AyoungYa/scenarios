@@ -15,7 +15,7 @@
             "file": "verify1.sh",
             "hint": "Please calculate the weight of the fruits in each basket and output",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
@@ -36,7 +36,7 @@
             "file": "verify2.sh",
             "hint": "Please enter the values that meet the requirements and calculate the weight accordingly.",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": [
