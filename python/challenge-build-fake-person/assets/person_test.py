@@ -6,6 +6,7 @@ import unittest
 
 from person import Person
 
+
 class TestPerson(unittest.TestCase):
     def test_person(self):
         person = Person('name', age=3, email='abc@a.com')
