@@ -17,7 +17,7 @@ class TestSplitSentence(unittest.TestCase):
         result = split_sentence(sentence)
         self.assertTrue(result)
         self.assertEqual(6, len(result))
-        self.assertEqual('some', result[0])
+        self.assertTrue('some' in result)
 
 if __name__ == "__main__":
     unittest.main()

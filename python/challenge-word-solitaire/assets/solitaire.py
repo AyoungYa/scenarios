@@ -14,6 +14,7 @@ def solitaire(words: list) -> list:
     return result
 
 
+
 if __name__ == "__main__":
     words = ['a', 'toy', 'has', 'excellent', 'apple']
     chains = solitaire(words)

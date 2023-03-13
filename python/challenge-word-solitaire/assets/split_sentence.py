@@ -1,4 +1,4 @@
-def process_sentence(sentence: str) -> list:
+def split_sentence(sentence: str) -> list:
     """
     Split the sentence in whitespace and return the word list as required in step1
     Args:
@@ -16,6 +16,6 @@ def process_sentence(sentence: str) -> list:
 
 if __name__ == "__main__":
     sentence = input("Please enter an English sentence: ")
-    words = process_sentence(sentence)
+    words = split_sentence(sentence)
 
     print(words)
