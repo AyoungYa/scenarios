@@ -22,7 +22,7 @@ class TestPutFruits(unittest.TestCase):
     def test_put_fruits_side(self, mock_input):
         total, fruits = put_fruits()
         self.assertEqual(0, total)
-        self.assertEqual([0], fruits)
+        self.assertEqual([], fruits)
 
     @patch('builtins.input', side_effect=['abc', '3', '5', '23'])
     def test_put_fruits_side_2(self, mock_input):

@@ -12,7 +12,6 @@ def basket_weight(basktets):
     """
     # TODO: implement this function
     # Note: Do not change the existing code
-
     result = None
     return result
 

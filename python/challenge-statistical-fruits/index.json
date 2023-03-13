@@ -75,6 +75,6 @@
     }
   },
   "backend": {
-    "imageid": "webide-ubuntu:2004"
+    "imageid": "webide-ubuntu:2204"
   }
 }

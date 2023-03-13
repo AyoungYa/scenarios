@@ -5,13 +5,13 @@ def put_fruits():
     result = []
     while basket_weight <= basket_capacity:
         fruit_weight = float(input("Enter the weight of the fruit: "))
-        basket_weight += fruit_weight
-        if basket_weight > basket_capacity:
-            return result
+        if (basket_weight + fruit_weight) > basket_capacity:
+            return basket_weight, result
         else:
+            basket_weight += fruit_weight
             result.append(fruit_weight)
 
-    return result
+    return basket_weight, result
 
 
 if __name__ == "__main__":

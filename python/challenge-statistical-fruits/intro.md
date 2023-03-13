@@ -2,6 +2,7 @@
 
 In this challenge, we'll use fruits to practice python skills:
 
-- data strucures: list, dicitionary, set
+- data structures: list, dictionary.
 - input and print
-- built-in functions: `zip()`, `max()`, `round()`.
+- built-in functions: `float()`, `sorted()`, `sum()`.
+- `lambda` expression.
