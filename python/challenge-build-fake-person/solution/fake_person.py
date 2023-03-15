@@ -1,5 +1,7 @@
 from faker import Faker
 
+from person import Person
+
 
 def fake_person_list(number_of_person) -> list:
     fake = Faker()
