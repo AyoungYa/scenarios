@@ -5,3 +5,8 @@ def uri_count(file_name):
 
     return result
 
+
+if __name__ == '__main__':
+    log_file = "access.log"
+    result = uri_count(log_file)
+    print("Uri count result: ", result)
