@@ -1,7 +1,6 @@
-def cal_area(input_str):
+def cal_area() -> (str, float):
     """
-     Implement area calculation using the two classes from the previous steps.
-    :param input: user input str
+     Get input from command and implement area calculation using the two classes from the previous steps.
     :return: shape_name: the shape of input, one of: square, circle or none
              area: the area of the shape, if not square or circle, return 0
     """
@@ -11,18 +10,7 @@ def cal_area(input_str):
     area = None
     return shape_name, area
 
-def get_input():
-    """
-    Get the input from keyboard and return the str
-    :return:
-    """
-    # TODO: Write your code here
-    # Note: Do not change the existing code
-    input_str = None
-    return input_str
-
 
 if __name__ == "__main__":
-    input_str = get_input()
-    shape_name, area = cal_area(input_str)
+    shape_name, area = cal_area()
     print(f"The area of the {shape_name} is {area}")
