@@ -32,8 +32,3 @@ def solitaire(words):
 
     return result
 
-
-# 输入单词列表
-words = ['a', 'toy', 'has', 'excellent', 'apple']
-# 进行单词接龙
-solitaire(words)
