@@ -1,8 +1,8 @@
 import sys
 
-from basket_weight import basket_weight
 
 sys.path.append("/home/labex/project")
+from basket_weight import basket_weight
 
 import unittest
 

@@ -1,8 +1,8 @@
 import sys
 from unittest.mock import patch
 
-from put_fruits import put_fruits
 sys.path.append("/home/labex/project")
+from put_fruits import put_fruits
 
 import unittest
 

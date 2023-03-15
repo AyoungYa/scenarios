@@ -1,7 +1,7 @@
 
-def basket_weight(fruits):
+def basket_weight(basktets):
     total_weights = []
-    for basket_name, weights in fruits.items():
+    for basket_name, weights in basktets.items():
         total_weight = sum(weights)
         total_weights.append({"name": basket_name, "weight": total_weight})
         total_weights[basket_name] = total_weight
