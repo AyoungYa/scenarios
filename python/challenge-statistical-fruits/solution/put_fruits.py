@@ -4,7 +4,10 @@ def put_fruits():
 
     result = []
     while basket_weight <= basket_capacity:
-        fruit_weight = float(input("Enter the weight of the fruit: "))
+        try:
+            fruit_weight = float(input("Enter the weight of the fruit: "))
+        except ValueError:
+            continue
         if (basket_weight + fruit_weight) > basket_capacity:
             return basket_weight, result
         else:
