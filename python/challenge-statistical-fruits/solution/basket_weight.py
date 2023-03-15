@@ -4,8 +4,6 @@ def basket_weight(basktets):
     for basket_name, weights in basktets.items():
         total_weight = sum(weights)
         total_weights.append({"name": basket_name, "weight": total_weight})
-        total_weights[basket_name] = total_weight
-
     sorted_weights = sorted(total_weights, key=lambda x: x["weight"], reverse=True)
 
     return sorted_weights
