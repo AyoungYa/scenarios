@@ -1,1 +1,1 @@
-cd /tmp && python3 split_sentence.py
+cd /tmp && python3 split_sentence_test.py
