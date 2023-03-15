@@ -1,8 +1,7 @@
 import sys
 
-from subclass import Circle, Square
-
 sys.path.append("/home/labex/project")
+from subclass import Circle, Square
 
 import unittest
 

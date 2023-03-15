@@ -1,8 +1,8 @@
 import sys
 from unittest.mock import patch
 
-from area import cal_area
 sys.path.append("/home/labex/project")
+from area import cal_area
 
 import unittest
 

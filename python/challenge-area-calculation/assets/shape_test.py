@@ -1,8 +1,7 @@
 import sys
 
-from shape import Shape
-
 sys.path.append("/home/labex/project")
+from shape import Shape
 
 import unittest
 
