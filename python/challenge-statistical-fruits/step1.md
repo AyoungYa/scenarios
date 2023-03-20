@@ -3,6 +3,7 @@
 There are several baskets, each containing fruits of different weights. Please calculate the total weight of the fruits in each basket and return them in order.
 
 example of input:
+
 ```
 {
     "apple": [1, 2.3, 4, 5],
@@ -12,6 +13,7 @@ example of input:
 ```
 
 return value example:
+
 ```
 [
     {
