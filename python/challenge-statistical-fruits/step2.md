@@ -1,7 +1,7 @@
-# Put Fruit into basket
+# Put Fruit Into Basket
 
-There is a basket that can hold 10 of fruit.
-You are to input the weight of the fruit from the command line and put it in the basket. When the total weight is greater than 10, return the total weight as string and fruit list that have been put in the basket.
+There is a basket that can hold 10 pieces of fruit.
+You have to enter the weight of the fruits from the command line and put them into the basket. If the total weight is greater than 10, return the total weight as a string and a list of fruits that have been put into the basket.
 
 Here is the input example:
 
@@ -21,5 +21,5 @@ Enter the weight of the fruit: 3
 
 ## Requirements
 
-- If the input value is not a numerical value or less than 0, skip it directly.
-- The return value of total weight must round to two decimal places.
+- If the input value is not a numeric value or is less than 0, skip it directly.
+- The total weight return value must be rounded to two decimal places.

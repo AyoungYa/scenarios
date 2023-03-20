@@ -1,6 +1,6 @@
 # Sum and Sorted
 
-There are some baskets, each containing fruits of different weights. Please calculate the total weight of fruits in each basket, and return them in order.
+There are several baskets, each containing fruits of different weights. Please calculate the total weight of the fruits in each basket and return them in order.
 
 example of input:
 ```
@@ -13,7 +13,20 @@ example of input:
 
 return value example:
 ```
-[{"name": "banana", "weight": 15}, {"name": "apple", "weight": 12.3}, {"name": "orange", "weight": 3}]
+[
+    {
+        "name": "banana",
+        "weight": 15
+    },
+    {
+        "name": "apple",
+        "weight": 12.3
+    },
+    {
+        "name": "orange",
+        "weight": 3
+    }
+]
 ```
 
 ## TODO
@@ -22,6 +35,5 @@ return value example:
 
 ## Requirements
 
-- If the number of basket is 0, return empty list.
+- If the number of baskets is 0, return an empty list.
 - The returned results must be sorted by weight from largest to smallest.
-

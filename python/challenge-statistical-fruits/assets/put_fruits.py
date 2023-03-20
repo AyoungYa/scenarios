@@ -1,10 +1,11 @@
-def put_fruits():
+def put_fruits() -> tuple(float, list[float]):
     """
-    Get input value from command line and put in basket if total weight not above basket capacity, otherwise return
-    the value that has already been placed.
+    Get the input value from the command line and put it in the basket if the total weight does not exceed the basket
+    capacity, otherwise return the value that has already been added.
+
     Returns:
         total_weight(str): Total weight of basket format to string with round to two decimal places.
-        fruits(list): Successfully placed fruits.
+        fruits(list): Successfully placed fruit.
     """
     basket_capacity = 10
 

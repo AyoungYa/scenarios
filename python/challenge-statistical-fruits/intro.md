@@ -1,8 +1,8 @@
 # Statistical Fruits
 
-In this challenge, we'll use fruits to practice python skills:
+In this challenge, we'll use fruits to practice Python skills:
 
-- data structures: list, dictionary.
-- input and print
-- built-in functions: `float()`, `sorted()`, `sum()`.
+- Data Structures: List, Dictionary.
+- Input and printing
+- Built-in functions: `float()`, `sorted()`, `sum()`.
 - `lambda` expression.

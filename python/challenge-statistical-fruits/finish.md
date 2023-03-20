@@ -1,3 +1,3 @@
 # Summary
 
-In this challenge, you learned about topics such as while loops, input and conversion, basic arithmetic operations in Python.
+In this Challenge, you learned about topics such as while looping, entering and converting, and basic arithmetic operations in Python.
