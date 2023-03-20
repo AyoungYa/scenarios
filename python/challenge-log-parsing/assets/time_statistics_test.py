@@ -15,7 +15,7 @@ class TestTimeStatistics(unittest.TestCase):
             self.assertRaises(FileNotFoundError)
 
         file_name = 'access.log'
-        (max_uri, max_avg_time), (min_uri, min_avg_time) = time_statistics(file_name)
+        max_uri, max_avg_time, min_uri, min_avg_time = time_statistics(file_name)
         self.assertEqual(max_uri, '/query/order/info')
         self.assertTrue(abs(max_avg_time - 1.54) < 0.01)
 

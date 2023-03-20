@@ -1,6 +1,6 @@
 # Analysis Each Row
 
-Each row of the log file is split by space like `uri used_time`, In this step, we need statistics each uri been requested times, then return the result in directory like:
+Each line of the log file is split by space like `uri used_time`, in this step we need statistics of each uri requested times, then return the result in directory like:
 
 ```
 {
@@ -12,7 +12,7 @@ Each row of the log file is split by space like `uri used_time`, In this step, w
 
 ## Tips
 
-- Use the directory to store each uri requested times temporary.
+- Use the directory to store any uri requested times temporarily.
 
 ## TODO
 
@@ -20,4 +20,4 @@ Each row of the log file is split by space like `uri used_time`, In this step, w
 
 ## Requirements
 
-- Finish the function `get_uri_and_count` and return the result.
+- Finish the `get_uri_and_count` function and return the result.
