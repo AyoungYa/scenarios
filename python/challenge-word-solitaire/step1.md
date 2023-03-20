@@ -1,6 +1,6 @@
 # Sentence input and split
 
-Please write a piece of code that can accept an English sentence as input, split the sentence string into a list of words using whitespace as the delimiter, and perform the following operations:
+Write a piece of code that can take an English sentence as input, split the sentence string into a list of words using whitespace as a delimiter, and perform the following operations:
 
 Here is an example:
 
@@ -17,6 +17,6 @@ return: ['it', 'a', 'pleasure', 'to', 'study', 'and', 'practice', 'what', 'you',
 
 ## Requirements
 
-- Keep only the words containing letters, remove punctuation, digits, and words with non-letter characters.
+- Keep only the words with letters, remove punctuation, numbers, and words with non-letter characters.
 - Convert all letters to lowercase.
 - Remove duplicates, leaving only one occurrence of each word.

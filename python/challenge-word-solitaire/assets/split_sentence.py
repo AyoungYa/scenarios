@@ -1,6 +1,6 @@
-def split_sentence(sentence: str) -> list:
+def split_sentence(sentence: str) -> list[str]:
     """
-    Split the sentence in whitespace and return the word list as required in step1
+    Splits the sentence into whitespace and returns the word list.
     Args:
         sentence(str): input sentence
 
@@ -13,9 +13,3 @@ def split_sentence(sentence: str) -> list:
 
     return result
 
-
-if __name__ == "__main__":
-    sentence = input("Please enter an English sentence: ")
-    words = split_sentence(sentence)
-
-    print(words)

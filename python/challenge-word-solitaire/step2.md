@@ -1,10 +1,10 @@
 # Word Solitaire
 
-Now, for the word list obtained in the previous step, perform word chain following the steps below:
+Now, for the word list obtained in the previous step, perform word chaining by following the steps below:
 
 - First, sort the string list;
-- Starting with the first word as the head, find a word that starts with the last letter of the current word and add it to the word chain from the remaining words. If it does not exist, save current chain;
-- Repeat the previous step in the remaining words until all words have been used up.
+- Starting with the first word as the head, find a word that starts with the last letter of the current word and add it to the word chain of the remaining words. If it does not exist, save the current string;
+- Repeat the previous step with the remaining words until all words are used.
   Example:
 
 ```python
@@ -19,5 +19,6 @@ output:
 - Completing `solitaire.py`
 
 ## Requirements
-- Each word can only be used once.
+
+- Each word can be used only once.
 - If there are no words, return an empty list.

@@ -1,6 +1,8 @@
-def solitaire(words: list) -> list:
+def solitaire(words: list[str]) -> list[list[str]]:
     """
-
+    Given a list of words, please concatenate them so that the last letter of one
+    word is the same as the first letter of the next word, and return the
+    resulting chain of words.
     Args:
         words(list): A list of string.
 
@@ -13,9 +15,3 @@ def solitaire(words: list) -> list:
     result = None
     return result
 
-
-if __name__ == "__main__":
-    words = ['a', 'toy', 'has', 'excellent', 'apple']
-    chains = solitaire(words)
-    for ele in chains:
-        print(ele)
