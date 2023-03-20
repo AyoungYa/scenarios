@@ -1,6 +1,6 @@
-# Build Person class
+# Build Person Class
 
-Please implement a `Person` class that includes the properties `name`, `age`, and `email`, as well as a method `getAge()` that returns the user's age.
+Please implement a `Person` class that contains the fields name, age and email. Also implement a `getAge()` method that returns the age of the user.
 
 ## TODO
 

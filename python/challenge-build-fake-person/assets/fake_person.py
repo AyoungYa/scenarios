@@ -1,4 +1,4 @@
-def fake_person_list(number_of_person) -> list:
+def fake_person_list(number_of_person: int) -> list:
     """
     Given the number of fake person, this function returns a list of fake person which are
     sorted by age from youngest to oldest.

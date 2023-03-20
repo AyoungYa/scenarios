@@ -1,6 +1,6 @@
-# Fake Person objects and sort in age
+# Fake Person Objects and Sort in Age
 
-Using the `Fake` library installed in the first step, please create five `Person` objects and sort these objects by 1. Then print the sorted objects.
+Create five `Person` objects and sort them by 1. Then print the sorted objects using the `Fake` library installed in the first step.
 
 ## TODO
 
@@ -8,6 +8,6 @@ Using the `Fake` library installed in the first step, please create five `Person
 
 ## Requirements
 
-- Use the faker library to generate the name, age, and email for a Person.
-- Create the corresponding number of Person objects based on the given parameter.
+- Use the `faker` library to generate the name, age and email for a person.
+- Create the appropriate number of Person objects based on the given parameters.
 - Before returning, the Person objects must be sorted in ascending order by age.
