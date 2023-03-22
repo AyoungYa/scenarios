@@ -21,10 +21,10 @@ def count_lines(file_name: str) -> int:
 class TestSumN(unittest.TestCase):
 
     def test_file_lines(self):
-        self.assertLessEqual(count_lines('sum_n.py'), 3)
+        self.assertLessEqual(count_lines('/home/labex/project/sum_n.py'), 3)
 
     def test_symbol(self):
-        f = open('sum_n.py', "r").read()
+        f = open('/home/labex/project/sum_n.py', "r").read()
         self.assertNotIn(';', f)
     
     def test_sum_n(self):

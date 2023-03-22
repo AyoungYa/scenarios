@@ -17,3 +17,4 @@ print(file_len)
 ## Requirements
 
 - The path of `folder_delete.py` is `/home/labex/project`, don't move it, and don't change the filename or function name.
+- If folder not exists, return 0.

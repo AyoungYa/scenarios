@@ -21,10 +21,10 @@ def count_lines(file_name: str) -> int:
 
 class TestConcatStrings(unittest.TestCase):
     def test_file_lines(self):
-        self.assertLessEqual(count_lines('concat_strings.py'), 3)
+        self.assertLessEqual(count_lines('/home/labex/project/concat_strings.py'), 3)
 
     def test_symbol(self):
-        f = open('concat_strings.py', "r").read()
+        f = open('/home/labex/project/concat_strings.py', "r").read()
         self.assertNotIn(';', f)
 
     def test_concat_strings(self):
