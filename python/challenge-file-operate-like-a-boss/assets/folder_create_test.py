@@ -1,6 +1,8 @@
 import sys
 
-sys.append('/home/labex/project')
+
+sys.path.append('/home/labex/project')
+
 
 import os
 import unittest

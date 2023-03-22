@@ -1,1 +1,1 @@
-# print top 3 high frequencies words and count each
+# count the top 3 most frequent words in all the files in a directory.
