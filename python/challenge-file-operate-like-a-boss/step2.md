@@ -5,7 +5,7 @@ In this challenge, you should complete a function `file_move` in `file_move.py`.
 for example:
 
 ```python
-folder_create('file.txt', '/home/folder')
+file_move('file.txt', '/home/folder')
 # move file.txt to /home/folder
 ```
 

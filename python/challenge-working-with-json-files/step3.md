@@ -2,7 +2,7 @@
 
 In this challenge, you should create a Python script `json_search.py`, this script accepts the file and key name argument and then print the result.
 
-Meantime, the result should be formatted as 'The value for the key `key` in `file` is `value`.'
+Meantime, the result should be formatted as **'The value for the key `key` in `file` is `value`.'**.
 
 For example:
 

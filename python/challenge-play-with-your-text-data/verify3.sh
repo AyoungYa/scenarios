@@ -1,2 +1,3 @@
 #!/bin/zsh
-python verify.py
+cd /tmp
+python verify3.py

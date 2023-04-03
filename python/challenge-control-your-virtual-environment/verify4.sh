@@ -1,1 +1,1 @@
-history | grep 'deactivate'
+cat ~/.zsh_history | grep 'deactivate'

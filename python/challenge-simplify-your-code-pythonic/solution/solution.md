@@ -47,7 +47,7 @@ def get_grade(score: int) -> str:
     Returns:
     str: The grade of the student ('A', 'B', 'C', 'D', or 'E').
     """
-    grades = {90: 'A', 80: 'B', 70: 'C', 60: 'D'}
+    grades = {90: 'A', 80: 'B', 70: 'C', 60: 'D', 0: 'E'}
     return grades.get(next(key for key in grades if score >= key), 'E')
 ```
 
@@ -82,5 +82,5 @@ def flatten_list(nested_list: list) -> list:
     Return:
         list: A one-dimensional list containing all the elements from the nested list.
     """
-    return [item for sublist in nested_list for item in sublist]
+    return [item for sublist in nested_list for item in (flatten_list(sublist) if isinstance(sublist, list) else [sublist])]
 ```

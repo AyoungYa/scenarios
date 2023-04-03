@@ -1,2 +1,2 @@
 #!/bin/zsh
-python asserts/generate.py
+python /tmp/generate.py
