@@ -21,10 +21,10 @@ def count_lines(file_name: str) -> int:
 class TestGetGrade(unittest.TestCase):
 
     def test_file_lines(self):
-        self.assertLessEqual(count_lines('get_grade.py'), 5)    
+        self.assertLessEqual(count_lines('/home/labex/project/get_grade.py'), 5)    
 
     def test_symbol(self):
-        f = open('get_grade.py', "r").read()
+        f = open('/home/labex/project/get_grade.py', "r").read()
         self.assertNotIn(';', f)
 
     def test_score_90_to_100(self):

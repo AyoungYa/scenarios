@@ -27,6 +27,8 @@ The two lists should be merged to `list.json` as follows:
 ]
 ```
 
+Try to create a python script and complete this sub-challenge.
+
 ## Requirements
 
 - The path of `list.json` is `/home/labex/project`.

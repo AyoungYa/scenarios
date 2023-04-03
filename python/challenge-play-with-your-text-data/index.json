@@ -63,7 +63,8 @@
         "skills": [
           "python/list",
           "python/rw_files",
-          "python/manipulating_strings"
+          "python/manipulating_strings",
+          "python/python_scripts"
         ]
       }
     ],
@@ -77,7 +78,52 @@
     "assets": {
       "host01": [
         {
-          "file": "*",
+          "file": "verify3.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "centos",
+          "target": "/home/labex/project/files",
+          "chmod": "777"
+        },
+        {
+          "file": "java",
+          "target": "/home/labex/project/files",
+          "chmod": "777"
+        },
+        {
+          "file": "linux",
+          "target": "/home/labex/project/files",
+          "chmod": "777"
+        },
+        {
+          "file": "program",
+          "target": "/home/labex/project/files",
+          "chmod": "777"
+        },
+        {
+          "file": "python",
+          "target": "/home/labex/project/files",
+          "chmod": "777"
+        },
+        {
+          "file": "ubuntu",
+          "target": "/home/labex/project/files",
+          "chmod": "777"
+        },
+        {
+          "file": "top_3_high_frequencies.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "word_count.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "step3_code.py",
           "target": "/home/labex/project",
           "chmod": "777"
         }

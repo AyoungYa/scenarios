@@ -74,7 +74,11 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/list_comprehension"]
+        "skills": [
+          "python/list_comprehension",
+          "python/function_basic",
+          "python/data_types"
+        ]
       }
     ],
     "intro": {
@@ -83,6 +87,40 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*_test.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "concat_strings.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "flatten_list.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "get_grade.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "sum_n.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "sum_two_lists.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        }
+      ]
     }
   },
   "backend": {
