@@ -18,7 +18,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/pypi", "python/packages"]
+        "skills": ["python/pypi", "python/packages"],
+        "solutions": ["install.bash"]
       },
       {
         "title": "Build Person class",
@@ -32,7 +33,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/class", "python/attributes"]
+        "skills": ["python/class", "python/attributes"],
+        "solutions": ["person.py"]
       },
       {
         "title": "Fake Person objects and sort in age",
@@ -52,7 +54,8 @@
           "python/iterator",
           "python/lambda_function",
           "python/for_loop"
-        ]
+        ],
+        "solutions": ["fake_person.py"]
       }
     ],
     "intro": {
