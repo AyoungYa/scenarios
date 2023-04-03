@@ -24,7 +24,8 @@
           "python/input",
           "python/list",
           "python/set"
-        ]
+        ],
+        "solutions": ["split_sentence.py"]
       },
       {
         "title": "Word Solitaire",
@@ -42,7 +43,8 @@
           "python/manipulating_strings",
           "python/list_comprehension",
           "python/iterator"
-        ]
+        ],
+        "solutions": ["solitaire.py"]
       }
     ],
     "intro": {
