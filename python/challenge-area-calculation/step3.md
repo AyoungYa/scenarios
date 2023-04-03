@@ -14,9 +14,9 @@ The circle area is: 28.26 # ouput shape and area
 
 ## TODO
 
-- Completing area.py
+- Completing `area.py`
 
 ## Requirements
 
 - Implement the `get_input()` and `cal_area()` methods.
-- Must create square and circle object in cal_area()` method.
+- Must create `Square` and `Circle` object in `cal_area()` method.

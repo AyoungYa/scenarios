@@ -23,7 +23,8 @@
           "python/raise_errors",
           "python/instance_objects",
           "python/print"
-        ]
+        ],
+        "solutions": ["shape.py"]
       },
       {
         "title": "Subclass and override",
@@ -41,7 +42,8 @@
           "python/inheritance",
           "python/method_objects",
           "python/math_operator"
-        ]
+        ],
+        "solutions": ["subclass.py"]
       },
       {
         "title": "Area Calculation",
@@ -61,7 +63,8 @@
           "python/float",
           "python/if_else",
           "python/format_specifiers"
-        ]
+        ],
+        "solutions": ["area.py"]
       }
     ],
     "intro": {
