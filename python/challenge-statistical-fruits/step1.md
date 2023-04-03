@@ -38,4 +38,4 @@ return value example:
 ## Requirements
 
 - If the number of baskets is 0, return an empty list.
-- The returned results must be sorted by weight from largest to smallest.
+- The return results must be in descending order of weight.

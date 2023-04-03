@@ -25,7 +25,8 @@
           "python/sorted",
           "python/lambda_function",
           "python/print"
-        ]
+        ],
+        "solutions": ["basket_weight.py"]
       },
       {
         "title": "Put Fruit into basket",
@@ -45,7 +46,8 @@
           "python/input",
           "python/math_operator",
           "python/f_string"
-        ]
+        ],
+        "solutions": ["put_fruits.py"]
       }
     ],
     "intro": {

@@ -4,9 +4,9 @@ def basket_weight(basktets):
     for basket_name, weights in basktets.items():
         total_weight = sum(weights)
         total_weights.append({"name": basket_name, "weight": total_weight})
-    sorted_weights = sorted(total_weights, key=lambda x: x["weight"], reverse=True)
+    result = sorted(total_weights, key=lambda x: x["weight"], reverse=True)
 
-    return sorted_weights
+    return result
 
 
 if __name__ == "__main__":
@@ -16,5 +16,5 @@ if __name__ == "__main__":
         "banana": [4, 5, 6]
     }
     result = basket_weight(fruits)
-    for k, v in result:
-        print(k, ": ", v)
+    for ele in result:
+        print(ele['name'], ": ", ele['weight'])

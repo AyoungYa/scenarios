@@ -1,6 +1,6 @@
 # Put Fruit Into Basket
 
-There is a basket that can hold 10 pieces of fruit.
+There is a basket that can hold 10 fruit.
 You have to enter the weight of the fruits from the command line and put them into the basket. If the total weight is greater than 10, return the total weight as a string and a list of fruits that have been put into the basket.
 
 Here is the input example:
