@@ -22,7 +22,8 @@
           "python/rw_files",
           "python/open",
           "python/for_loop"
-        ]
+        ],
+        "solutions": ["read_log.py"]
       },
       {
         "title": "Analysis Each Row",
@@ -39,7 +40,8 @@
         "skills": [
           "python/dict",
           "python/manipulating_strings"
-        ]
+        ],
+        "solutions": ["uri_count.py"]
       },
       {
         "title": "Time-Consuming Statistics",
@@ -56,7 +58,8 @@
         "skills": [
           "python/sum",
           "python/len"
-        ]
+        ],
+        "solutions": ["time_statistics.py"]
       }
     ],
     "intro": {

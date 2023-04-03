@@ -20,4 +20,4 @@ Each line of the log file is split by space like `uri used_time`, in this step w
 
 ## Requirements
 
-- Finish the `get_uri_and_count` function and return the result.
+- Finish the `uri_count` function and return the result.

@@ -1,4 +1,4 @@
-def get_uri_and_count(file_name):
+def uri_count(file_name):
     result = {}
     with open(file_name, "r") as f:
         for line in f.readlines():
