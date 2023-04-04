@@ -4,7 +4,7 @@ There are several baskets, each containing fruits of different weights. Please c
 
 example of input:
 
-```
+```json
 {
     "apple": [1, 2.3, 4, 5],
     "orange": [3],
@@ -14,7 +14,7 @@ example of input:
 
 return value example:
 
-```
+```json
 [
     {
         "name": "banana",
