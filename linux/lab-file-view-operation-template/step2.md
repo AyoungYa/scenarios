@@ -17,7 +17,7 @@ head -n1 ~/temp/hello
 The following example shows how to view the first byte of data under `~/temp/hello`.
 
 ```bash
-head -c1  ~/temp/hello
+head -c1 ~/temp/hello
 ```
 
 ![lab-basic-operation-2-2](assets/lab-demo-operation-2-2.png)

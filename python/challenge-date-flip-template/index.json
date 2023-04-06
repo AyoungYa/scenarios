@@ -27,7 +27,8 @@
           "python/return_values",
           "python/packages",
           "python/assignment"
-        ]
+        ],
+        "solutions": ["date_flip.py"]
       }
     ],
     "intro": {
