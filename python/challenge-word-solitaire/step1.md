@@ -1,4 +1,4 @@
-# Sentence input and split
+# Sentence Input and Split
 
 Write a piece of code that can take an English sentence as input, split the sentence string into a list of words using whitespace as a delimiter.
 
