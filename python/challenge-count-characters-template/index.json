@@ -18,7 +18,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/docstring", "python/comments"]
+        "skills": ["python/docstring", "python/comments"],
+        "solutions": ["count_characters.py"]
       }
     ],
     "intro": {

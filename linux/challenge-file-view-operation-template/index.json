@@ -25,7 +25,8 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "solutions": ["solution-step1.md"]
       },
       {
         "title": "operator file content",
@@ -46,7 +47,8 @@
             "timeout": 5,
             "showstderr": false
           }
-        ]
+        ],
+        "solutions": ["solution-step2.md"]
       }
     ],
     "intro": {

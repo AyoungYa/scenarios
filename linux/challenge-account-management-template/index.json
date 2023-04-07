@@ -53,7 +53,8 @@
             "showstderr": true
           }
         ],
-        "skills": ["linux/useradd"]
+        "skills": ["linux/useradd"],
+        "solutions": ["solution-step1.md"]
       },
       {
         "title": "Manege user password",
@@ -74,7 +75,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/passwd"]
+        "skills": ["linux/passwd"],
+        "solutions": ["solution-step2.md"]
       },
       {
         "title": "Modify user account",
@@ -102,7 +104,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/usermod"]
+        "skills": ["linux/usermod"],
+        "solutions": ["solution-step3.md"]
       },
       {
         "title": "Delete user account",
@@ -123,7 +126,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/userdel"]
+        "skills": ["linux/userdel"],
+        "solutions": ["solution-step4.md"]
       }
     ],
     "intro": {
