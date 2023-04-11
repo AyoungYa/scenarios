@@ -12,7 +12,7 @@ Each line of the log file is split by space like `uri used_time`, in this step w
 
 ## Tips
 
-- Use the directory to store any uri requested times temporarily.
+- Use the `directory` to store any uri requested times temporarily.
 
 ## TODO
 
