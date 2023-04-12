@@ -8,4 +8,3 @@ def uri_count(file_name: str) -> dict[str, int]:
             else:
                 result[uri] = 1
     return result
-
