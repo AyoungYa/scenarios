@@ -1,6 +1,6 @@
 # Log Parsing
 
-Access.log is a log file that records access requests from others, each line representing a single access. The format of this file is `uri used_time`. Here are some examples of log files below.
+`access.log` is a log file that records access requests from others, each line representing a single access. The format of this file is `uri used_time`. Here are some examples of log files below.
 
 ```bash
 /create/order 0.10

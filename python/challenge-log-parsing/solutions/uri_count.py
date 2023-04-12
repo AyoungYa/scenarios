@@ -1,4 +1,4 @@
-def uri_count(file_name):
+def uri_count(file_name: str) -> dict[str, int]:
     result = {}
     with open(file_name, "r") as f:
         for line in f.readlines():

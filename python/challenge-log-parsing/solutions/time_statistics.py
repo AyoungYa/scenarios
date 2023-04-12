@@ -1,5 +1,5 @@
 
-def time_statistics(file_name):
+def time_statistics(file_name: str) -> tuple[str, float, str, float]:
     result = {}
     with open(file_name, "r") as f:
         for line in f.readlines():
