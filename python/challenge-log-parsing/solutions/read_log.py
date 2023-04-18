@@ -1,5 +1,6 @@
-
 def read_log(file_name: str) -> int:
+    # TODO: implement this function
+    # Note: Do not change the existing code
     line_count = 0
     
     with open(file_name, "r") as f:
