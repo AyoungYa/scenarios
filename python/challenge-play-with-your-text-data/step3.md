@@ -2,7 +2,7 @@
 
 What is the first word in each file? And the second? And the third?
 
-Try to put the n-th word to one file `output/n` by Python
+Try to put the n-th word to one file `output/n` by using the Python script `step3_code.py`.
 
 For example:
 
@@ -12,8 +12,8 @@ CentOS Java A Python Ubuntu
 ```
 
 ```python
-# output/100, the 100-th file, only java and program have 100-th word.
-code being
+# output/100, the 100-th file, only java, linux and program have 100-th word.
+applications and the
 ```
 
 ## Requirements

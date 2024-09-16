@@ -1,6 +1,6 @@
 # Import Your Installed Package
 
-Congratulations! `flask`` is installed successfully.
+Congratulations! `flask` is installed successfully.
 
 Now you need to import `flask` in the Python console.
 

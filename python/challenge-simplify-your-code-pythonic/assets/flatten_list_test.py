@@ -21,10 +21,10 @@ def count_lines(file_name: str) -> int:
 
 class TestFlattenList(unittest.TestCase):
     def test_file_lines(self):
-        self.assertLessEqual(count_lines('flatten_list.py'), 3)
+        self.assertLessEqual(count_lines('/home/labex/project/flatten_list.py'), 3)
 
     def test_symbol(self):
-        f = open('flatten_list.py', "r").read()
+        f = open('/home/labex/project/flatten_list.py', "r").read()
         self.assertNotIn(';', f)
     
     def test_empty_list(self):

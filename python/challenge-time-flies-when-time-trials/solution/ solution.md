@@ -3,6 +3,7 @@
 ## Step 1 Solution
 
 ```python
+# print the current date and time in the specified format
 import time
 print(time.strftime('%Y-%m-%d %H:%M'))
 ```
@@ -10,6 +11,7 @@ print(time.strftime('%Y-%m-%d %H:%M'))
 ## Step 2 Solution
 
 ```python
+# print the next 10 days, next 100 days, next 1000 days, and next 10000 days
 import datetime
 now = datetime.datetime.now()
 for i in range(4):

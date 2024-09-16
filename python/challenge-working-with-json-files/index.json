@@ -38,7 +38,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/rw_files", "python/list"]
+        "skills": ["python/rw_files", "python/list", "python/python_scripts"]
       },
       {
         "title": "Search What I Want",
@@ -65,8 +65,18 @@
     "assets": {
       "host01": [
         {
-          "file": "*",
+          "file": "count.py",
           "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "json_search.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "generate.py",
+          "target": "/tmp",
           "chmod": "777"
         }
       ]
